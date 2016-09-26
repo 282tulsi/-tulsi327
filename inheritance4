@@ -1,10 +1,10 @@
 class owner
 { String name;
-  int mob;
+  int mobile;
 
-    owner(String name, int mob) {
+    owner(String name, int mobile) {
         this.name = name;
-        this.mob = mob;
+        this.mobile = mobile;
     }
   
 }
@@ -65,7 +65,6 @@ class Unicorn extends bike
    }
    public static void main(String[] arg)
    {bike[] b=new bike[10];
-    //bikes at service station
      b[0]=new DreamYuga(new owner("owner1", 9901));
      b[1]=new Shine(new owner("owner2", 9902));
      b[2]=new bike(new owner("owner3", 9903));
