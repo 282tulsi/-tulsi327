@@ -2,7 +2,7 @@ class MyName
 { private String privateName;
   public String publicName;
   String defaultName;
-  //constructors
+ 
   MyName(String name)
   {privateName=publicName=defaultName=name;
       
