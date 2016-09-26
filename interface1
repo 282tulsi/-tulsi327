@@ -121,7 +121,7 @@ public class bankAccountDemo {
       c.withdraw_amount(2000);
       
       account_inf[] accs=new account_inf[5];
-        accs[0]=new Sav_Account("qaz", true, 40000);//true->sav account,false->curr acc
+        accs[0]=new Sav_Account("qaz", true, 40000);
         accs[1]=new Sav_Account("efv", true, 50000);
         accs[2]=new Sav_Account("wer", true, 160000);
         accs[3]=new Curr_Account("yjm", false, 3452);
