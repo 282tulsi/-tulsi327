@@ -13,12 +13,10 @@ class Car
         this.maxSpeed = maxSpeed;
  }
     void accelerate()
-    {//do nothing
-        
+    {
     }
     void powerBreak()
-    {//do nothing
-        
+    {
     }
 }
 
@@ -62,7 +60,7 @@ class  Ferrari extends Car
 class carDemo
 {public static void main(String[] args) 
 	{Ferrari f=new Ferrari("red", "rocket", 2, 350);
-         BMW b=new BMW("white", "king", 2, 300);
+         BMW b=new BMW("black", "king", 2, 300);
          for(int i=0;i<=150;i++)
          {f.accelerate();b.accelerate();
            System.out.println(i+"th seconds speed");
